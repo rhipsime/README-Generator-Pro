@@ -1,7 +1,7 @@
 // index.js
 
 const fs = require('fs');
-const inquirer = require('inquirer');
+const inquirer = require('inquirer'); // Use require for importing inquirer
 
 const questions = [
     {
@@ -89,9 +89,11 @@ inquirer.prompt(questions).then((answers) => {
         console.log('README file generated successfully!');
       }
     });
-  });
-  
-  function generateREADME(answers) {
+}).catch((error) => {
+    console.error('Error:', error);
+});
+
+function generateREADME(answers) {
     // GitHub profile link
     const githubLink = answers.github ? `[${answers.github}](https://github.com/${answers.github})` : 'None';
   
@@ -124,7 +126,7 @@ inquirer.prompt(questions).then((answers) => {
   - [GitHub](${answers.github ? 'https://github.com/' + answers.github : '#'})  
   - Email: ${answers.email ? answers.email : 'Not provided'}
   `;
-  }
+}
   
   
   
