@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator-pro",
+  "version": "1.0.0",
+  "description": "A command-line application that generates professional README.md files dynamically based on user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhipsime/README-Generator-Pro.git"
+  },
+  "author": "Arie David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhipsime/README-Generator-Pro/issues"
+  },
+  "homepage": "https://github.com/rhipsime/README-Generator-Pro#readme",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  }
+}
