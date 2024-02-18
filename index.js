@@ -1,7 +1,6 @@
 // index.js
 
-const fs = require('fs');
-const inquirer = require('inquirer'); // Use require for importing inquirer
+import inquirer from 'inquirer';
 
 const questions = [
     {
