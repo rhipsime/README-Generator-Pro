@@ -1,6 +1,6 @@
 // index.js
 
-const fs = import('fs');
+import * as fs from 'fs';
 
 import inquirer from 'inquirer';
 
