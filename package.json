@@ -18,5 +18,6 @@
   "homepage": "https://github.com/rhipsime/README-Generator-Pro#readme",
   "dependencies": {
     "inquirer": "^9.2.14"
-  }
+  },
+  "type": "module"
 }
