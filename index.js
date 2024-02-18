@@ -1,5 +1,7 @@
 // index.js
 
+const fs = require('fs');
+
 import inquirer from 'inquirer';
 
 const questions = [
