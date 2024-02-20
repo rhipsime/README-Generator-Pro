@@ -1,7 +1,6 @@
 // index.js
 
 import * as fs from 'fs';
-
 import inquirer from 'inquirer';
 
 const questions = [
@@ -66,6 +65,21 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contributing',
+        message: 'Explain how others can contribute to your project:',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide instructions on how to run tests for your project:',
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Provide instructions on how users can reach out with questions:',
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'What is your GitHub username?'
       },
@@ -75,7 +89,8 @@ const questions = [
         message: 'What is your email address?'
       },
       
-  ];  
+  ]; 
+
 
   // Prompt the user for information
 inquirer.prompt(questions).then((answers) => {
