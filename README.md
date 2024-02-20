@@ -16,6 +16,10 @@
   Make sure you have Node.js installed on your system. You can download it from nodejs.org.
   Clone the Repository: https://github.com/rhipsime/README-Generator-Pro.git
   Install Dependencies using npm
+
+  ## Screen Recording
+  https://app.screencastify.com/v3/watch/5A9gr1gwNO90vBHE2d7a
+
  
   
   ## Usage
