@@ -24,6 +24,6 @@
   This project is licensed under the MIT License.
   
   ## Questions
-  - [GitHub](https://github.com/rhipsime)  
-  - Email: ariedavid98@gmail.com
+  - [GitHub]: (https://github.com/rhipsime)  
+  - [Email] : (ariedavid98@gmail.com)
   
